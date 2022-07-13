@@ -58,7 +58,7 @@ public class OrderingApp {
 	}
 	
     private void addRestaurantToList(Restaurant res) {
-    	 if(Restaurants.length<=0) {
+    	if(Restaurants.length<=0) {
  	    	Restaurants[0] = res;
  		}
  	    for(int i = 0; i<Restaurants.length; i++){
@@ -66,7 +66,7 @@ public class OrderingApp {
  	    	 Restaurants[i] = res;
  	        break;
  	      }
- 	   }
+ 	    }
     }
     
     //Goes through the list of every restaurant in the list and search for the food in the restaurant's menu as entered by user

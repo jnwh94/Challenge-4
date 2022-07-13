@@ -28,6 +28,8 @@ public class Restaurant {
 	   }
 	}
 	
+	//Search for the food item based on the input passed from Main, searching for exact matching name case insensitive
+	//If found directly prints results, otherwise input will be prompted again
 	public void searchInMenu(String searchStr) {
 		for(int i = 0; i<Menu.length; i++){
 			if(Menu[i]!=null) {
